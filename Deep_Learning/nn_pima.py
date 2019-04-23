@@ -35,7 +35,7 @@ model.add(Dense(2, activation='softmax')) #output layer with 2 neuron
 
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=10, verbose=1, validation_split=0.1) #batch_size= no. of inputs at a time... epochs = no. of iterations for tranin
+model.fit(x_train, y_train, epochs=10, verbose=1, validation_split=0.1) 
 
 y_pred = model.predict(x_test)
 
