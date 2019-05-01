@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 from keras.datasets import mnist
-(X_train, y_train), (X_test, y_test) = mnist.load_data(r'C:\Users\GAYATRI KHANVILKAR\PycharmProjects\DNN\tmp\mnist.npz')
+(X_train, y_train), (X_test, y_test) = mnist.load_data(r'C:\file_path\mnist.npz')
 
 plt.imshow(X_train[0], cmap='gray')
 plt.show
